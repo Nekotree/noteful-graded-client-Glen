@@ -34,7 +34,6 @@ class NoteList extends Component {
         this.setState({ error: false });
       })
       .catch((error) => {
-        console.log(error);
         this.setState({ error });
       });
   };

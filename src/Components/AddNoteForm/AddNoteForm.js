@@ -41,7 +41,6 @@ class AddNoteForm extends Component {
       folder_id: noteFolderId,
       content: noteDesc
     };
-    console.log(noteFolderId);
     fetch(api_config.notes, {
       method: 'POST',
       body: JSON.stringify(note),
